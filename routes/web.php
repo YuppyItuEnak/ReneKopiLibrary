@@ -20,3 +20,13 @@ Route::get('/', function () {
 Route::get('/product', function(){
     return view('product');
 });
+
+Route::get('/about', function(){
+    return view('about');
+});
+
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
+
+// require __DIR__.'/auth.php';
