@@ -1,23 +1,27 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
-    
+
+/*Import Font*/
 @import url("http://fonts.cdnfonts.com/css/basier-square-narrow");
 
+@import url('http://fonts.cdnfonts.com/css/my-coffee-break');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 
-#home .text-outline{
+
+#home .text-outline {
     text-shadow:
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-     -1px 1px 0 #000,
-      1px 1px 0 #000;
- }
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
 
- #home .section-btn {
+#home .section-btn {
     margin: 32px 0 0 0;
     padding: 0;
-  }
+}
 
 #home .bgimage {
     object-fit: cover;
@@ -58,7 +62,27 @@
     transition: 1s opacity;
 }
 
-#about .renekopilogo{
+#about .renekopilogo {
     width: 300px;
     height: 300px;
+}
+
+#about .map {
+    width: 50px;
+    height: 50px;
+}
+
+#about .wa {
+    width: 100px;
+    height: 100px;
+}
+
+#about .ig {
+    width: 100px;
+    height: 100px;
+}
+
+#about .email {
+    width: 100px;
+    height: 100px;
 }
