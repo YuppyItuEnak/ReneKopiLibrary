@@ -10,7 +10,8 @@
 </head>
 
 <body class=""> --}}
-
+<!---Home--->
+<section id="home">
     <div class="header">
         <img src="Images/Renekopi7.jpg" alt="" class="bgimage img-fluid position-relative w-100"
             style="height: 95vh">
@@ -22,25 +23,40 @@
                 </h1>
                 <h1 class="container col-md-12 offset-md-3 text-uppercase font-secondary text-white d-none d-md-block">
                     To Fullfil Your
-                    Coffee Passion</h1>
+                    Coffee Passion
+                </h1>
+                <ul class="section-btn ">
+                    <button type="button" class="btn btn-outline-secondary btn-lg   ">
+                        Discover More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                        </svg>
+                    </button>
+
+                </ul>
             </div>
         </div>
 
     </div>
 
+    <!---Introduce ReneKopi--->
     <div class="container text-center mx-auto my-auto mt-4">
         <div class="row">
             <div class="col-md-6 offset-md-1 col-md-10 col-sm-12">
                 <h3 class="text-white text-opacity-100 quote text-outline">Introducing ReneKopi</h3>
-                <h1 class="text-white fs-4 text-opacity-100 quote2 text-outline">"Kopi itu minuman Sederhana, tidak mengintimidasi
+                <h1 class="text-white fs-4 text-opacity-100 quote2 text-outline">"Kopi itu minuman Sederhana, tidak
+                    mengintimidasi
                     karena memang
                     untuk semua orang dan semua kalangan, tanpa terkecuali"</h1>
             </div>
         </div>
     </div>
 
+    <!----Button to go to product Page--->
     <div class="d-flex justify-content-center align-items-center mx-auto">
-        <div class="container mx-auto">
+        <div class="container mx-auto mb-10">
             <div class="row p-4">
                 <div class="col-12 col-md-4 mx-auto mt-4">
                     <div class="card justify-content-sm-center mx-auto" style="width: 18rem;">
@@ -95,17 +111,39 @@
             </div>
         </div>
     </div>
-
+    <section id="about" class="bg-black" style="height: 95vh">
+        <div class="container text-center">
+            <div class="row">
+                <!---Renekopi Slogan--->
+                <div class="col align-self-center">
+                    <img class="renekopilogo" src="Images/Renekopi3.png" alt="">
+                    <h1 class="fs-1 text-white">BOLD . ON POINT . PROVOKATIF</h1>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <!---About Renekopi filosofi--->
+                <div class="col-md-6 offset-md-3 text-white">ReneKopi, tidak hanya berbicara rasa. kami juga
+                    mengkreasikan
+                    sebuah komunikasi visual yangkami rancang sedemikian rupa. Komunikasi yang menjadi pilar konten
+                    media sosial
+                    RENEKOPI. Komunikasi visual tentang merek RENEKOPI itu sendiri. Konsep ngopi tanpa harus pakek
+                    filosofi,
+                    hingga sindiran tentang budaya ngopi saat ini
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Video -->
-    <section>
-        <video muted autoplay="" loop="">
-            <source src="Images/kopi.mp4" type="video/mp4">
-        </video>
-    </section>
+    <video muted autoplay="" loop="">
+        <source src="Images/kopi.mp4" type="video/mp4">
+    </video>
+</section>
 
-    <section> 
-        <img src="Images/Renekopi3.png" class="img-fluid" alt="...">
-    </section>
+
 
 
 
