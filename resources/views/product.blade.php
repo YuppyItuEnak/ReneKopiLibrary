@@ -11,22 +11,60 @@
 </head>
 
 <body> --}}
-    <div class="container d-flex  justify-content-lg-center">
-        <div class="row p-4">
-            <div class="col-md-4">
-                <a href="">HEHE</a>
-            </div>
-            <div class="col-md-4">
-                <a href="">HEHE</a>
-            </div>
-            <div class="col-md-4">
-                <a href="">HEHE</a>
+<div class="d-flex justify-content-center align-items-center mx-auto">
+    <div class="container text-center">
+        <div class="pages mx-auto">
+            <div class="row mx-auto">
+                <div class="col-12 col-md-4">
+                    <a  onClick="slide('next')">Coffee</a>
+                    <div class="page one">
+
+                        
+                    </div>
+                </div>
+                
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+</div>
 
-    
+
+
+
+{{-- <div class="container">
+    <div class="pages">
+        <div class="page one">
+            <h1>PAGE 1</h1>
+            <div>
+               
+            </div>
+        </div>
+        <div class="page two">
+            <h1>PAGE 2</h1>
+            <div>
+                <button onClick="slide('prev')">Previous</button>
+                <button onClick="slide('next')">Next</button>
+            </div>
+        </div>
+        <div class="page three">
+            <h1>PAGE 3</h1>
+            <div>
+                <button onClick="slide('prev')">Previous</button>
+                <button onClick="slide('next')">Next</button>
+            </div>
+        </div>
+        <div class="page four">
+            <h1>PAGE 4</h1>
+            <div>
+                <button onClick="slide('prev')">Previous</button>
+            </div>
+        </div>
+    </div>
+</div> --}}
+
+
 </body>
 
 </html>
-@extends('footer');
