@@ -1,5 +1,5 @@
-@include('navbar');
-<!DOCTYPE html>
+@include('navbar')
+{{-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body> --}}
     <div class="container d-flex  justify-content-lg-center">
         <div class="row p-4">
             <div class="col-md-4">

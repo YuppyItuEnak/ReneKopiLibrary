@@ -1,5 +1,5 @@
 @include('navbar')
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,51 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HomePage</title>
-    <style>
-        @import url('http://fonts.cdnfonts.com/css/basier-square-narrow');
-
-        .bgimage {
-            object-fit: cover;
-        }
-
-        .textover {
-            position: absolute;
-            top: 50%;
-            left: 25%;
-            transform: translate(-50%, -50%);
-        }
-
-        .header {
-            position: relative;
-        }
-
-        .circle2 {
-            width: 100px;
-            height: 100px;
-        }
-
-        .quote,
-        .quote2 {
-            font-family: 'Basier Square Narrow', 'sans-serif';
-        }
-
-        video {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            z-index: -100;
-            transform: translateX(-50%) translateY(-50%);
-            background-size: cover;
-            transition: 1s opacity;
-        }
-    </style>
 </head>
 
-<body class="bg-black">
+<body class=""> --}}
 
     <div class="header">
         <img src="Images/Renekopi7.jpg" alt="" class="bgimage img-fluid position-relative w-100"
@@ -73,8 +31,8 @@
     <div class="container text-center mx-auto my-auto mt-4">
         <div class="row">
             <div class="col-md-6 offset-md-1 col-md-10 col-sm-12">
-                <h3 class="text-white text-opacity-50 quote">Introducing ReneKopi</h3>
-                <h1 class="text-white fs-4 text-opacity-50 quote2">"Kopi itu minuman Sederhana, tidak mengintimidasi
+                <h3 class="text-white text-opacity-100 quote text-outline">Introducing ReneKopi</h3>
+                <h1 class="text-white fs-4 text-opacity-100 quote2 text-outline">"Kopi itu minuman Sederhana, tidak mengintimidasi
                     karena memang
                     untuk semua orang dan semua kalangan, tanpa terkecuali"</h1>
             </div>
@@ -140,7 +98,7 @@
 
     <!-- Video -->
     <section>
-        <video controls="" autoplay="" loop="" muted>
+        <video muted autoplay="" loop="">
             <source src="Images/kopi.mp4" type="video/mp4">
         </video>
     </section>

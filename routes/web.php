@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ReneController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,17 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('Home');
-});
+Route::get('/', [ReneController::class, 'home']);
+Route::get('/home', [ReneController::class, 'home']);
+Route::get('/product', [ReneController::class, 'product']);
+Route::get('/about', [ReneController::class, 'about']);
 
-Route::get('/product', function(){
-    return view('product');
-});
-
-Route::get('/about', function(){
-    return view('about');
-});
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
