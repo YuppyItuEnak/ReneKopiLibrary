@@ -149,7 +149,7 @@
 
 
             <div class="text-center">
-                <h1 class="text-white font-semibold mt-5">Contacts</h1>
+                <h1 class="display-1 text-white font-secondary mt-5">Contacts</h1>
                 <p class="fs-5 text-white">Get in touch with us for more information</p>
             </div>
 
