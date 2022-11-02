@@ -22,6 +22,7 @@
                         <div class="card-body">
                             <h1 class="mb-3" style="color: #3f4e4f">{{ $foods['name'] }}</h1>
                             <h6 class="card-text" style="color: #3f4e4f">Price : {{ $foods['price'] }}</h6>
+                            <p class="card-text pt-3">Description : {{ $coffees['desc'] }}</p>
                         </div>
                     </div>
                 </div>
@@ -33,6 +34,7 @@
                 <div class="card-body text-center">
                     <h1 class="mb-3">{{ $foods['name'] }}</h1>
                     <h6 class="card-text">Price : {{ $foods['price'] }}</h6>
+                    <p class="card-text pt-3">Description : {{ $coffees['desc'] }}</p>
                 </div>
             </div>
         </div>
