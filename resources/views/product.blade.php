@@ -2,7 +2,7 @@
 
 @section('body')
 <div style="background: #3f4e4f">
-    <h1 class="text-center" style="color: #dcd7c9; font-family: 'Florentia', sans-serif;
+    <h1 class="text-center pt-3" style="color: #dcd7c9; font-family: 'Florentia', sans-serif;
     ">{{ $title }}</h1>
     <div class="container text-center ">
         <div class="row ">
