@@ -78,17 +78,9 @@ html {
     height: 50px;
 }
 
-#about .wa {
+#about .wa, .phone,  .ig  {
     width: 100px;
     height: 100px;
 }
 
-#about .ig {
-    width: 100px;
-    height: 100px;
-}
 
-#about .email {
-    width: 100px;
-    height: 100px;
-}
