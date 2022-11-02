@@ -9,6 +9,8 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="http://fonts.cdnfonts.com/css/basier-square-narrow" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/my-coffee-break" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/florentia" rel="stylesheet">
+                
 
     <link rel="stylesheet" href={{ asset('/js/page.js') }}>
     <link rel="stylesheet" href={{ asset('/css/app.css') }}>
