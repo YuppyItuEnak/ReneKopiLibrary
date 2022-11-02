@@ -7,7 +7,7 @@
         @foreach ($coffees as $coffee)
             <div class="col-auto col-md-4 mx-auto ">
                 <div class="card my-4 mx-auto" style="width: 15rem; background-color:#dce6ff">
-                    <img src="{{ asset("pictures/{$coffee['image']}") }}" class="card-img-top" style=" height: 230px" alt="Product picture">
+                    <img src="{{ $coffee['image'] }}" class="card-img-top" style=" height: 230px" alt="Product picture">
                     <div class="card-body">
                         <h5 class="card-title">{{ $coffee['name'] }}</h5>
                         <div class="d-flex">
