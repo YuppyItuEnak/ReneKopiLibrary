@@ -16,8 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [ReneController::class, 'home']);
 Route::get('/home', [ReneController::class, 'home']);
-Route::get('/product', [ReneController::class, 'product']);
-Route::get('/about', [ReneController::class, 'about']);
+Route::get('/coffees', [ReneController::class, 'coffee']);
 
 
 // Route::get('/dashboard', function () {

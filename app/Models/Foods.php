@@ -14,91 +14,106 @@ class Food extends Model
             'name' => 'Nasi Ayam Teriyaki',
             'price' => '20.000',
             'desc' => 'hand-trimmed chicken breast, served with our teriyaki sauce',
-            'code' =>'nat'
+            'code' => 'nat',
+            'image' => 'https://via.placeholder.com/400'
         ],
         [
             'name' => 'Nasi Ayam Lada Hitam',
             'price' => '20.000',
             'desc' => 'hand-trimmed chicken breast, served with our blackpepper sauce',
-            'code' =>'nalh'
+            'code' =>'nalh',
+            'image' => 'https://via.placeholder.com/400'
         ],
         [
             'name' => 'Nasi Ayam Asam Manis',
             'price' => '20.000',
             'desc' => 'hand-trimmed chicken breast, served with our sweet sour sauce',
-            'code' =>'naam'
+            'code' =>'naam',
+            'image' => 'https://via.placeholder.com/400'
         ],
         [
             'name' => 'Nasi Ayam BBQ',
             'price' => '20.000',
             'desc' => 'hand-trimmed chicken breast, served with our barbeque sauce',
-            'code' =>'nabbq'
+            'code' =>'nabbq',
+            'image' => 'https://via.placeholder.com/400'
         ],
         [
             'name' => 'Nasi Ayam Katsu Sambal Matah',
             'price' => '25.000',
             'desc' => 'seasoned breaded chicken breast and served with rice',
-            'code' =>'naksm'
+            'code' =>'naksm',
+            'image' => 'https://via.placeholder.com/400'
         ],
         [
             'name' => 'Pasta Carbonara',
             'price' => '25.000',
             'desc' => 'creamy sauce pasta with smoked beef and mushroom',
-            'code' =>'pc'
+            'code' =>'pc',
+            'image' => 'https://via.placeholder.com/400'
         ],
         [
             'name' => 'Pasta Aglio e Olio',
             'price' => '25.000',
             'desc' => 'only garlic flavour with chili flakes, smoked beef and mushroom',
-            'code' =>'pao'
+            'code' =>'pao',
+            'image' => 'https://via.placeholder.com/400'
         ],
         [
             'name' => 'Nasi Goreng Rene',
             'price' => '23.000',
             'desc' => 'mix vegetables, minced chicken ad fried egg',
-            'code' =>'ngr'
+            'code' =>'ngr',
+            'image' => 'https://via.placeholder.com/400'
         ],
         [
             'name' => 'Kentang Goreng',
             'price' => '16.000',
             'desc' => 'fried fries',
-            'code' =>'kg'
+            'code' =>'kg',
+            'image' => 'https://via.placeholder.com/400'
         ],
         [
             'name' => 'Roti Bakar Strawberry',
             'price' => '16.000',
             'desc' => 'strawberry toast',
-            'code' =>'rbs'
+            'code' =>'rbs',
+            'image' => 'https://via.placeholder.com/400'
         ],
         [
             'name' => 'Roti Bakar Coklat',
             'price' => '16.000',
             'desc' => 'chocolate toast',
-            'code' =>'rbc'
+            'code' =>'rbc',
+            'image' => 'https://via.placeholder.com/400'
         ],
         [
             'name' => 'Roti Bakar Tiramisu',
             'price' => '16.000',
             'desc' => 'tiramisu toast',
-            'code' =>'rbt'
+            'code' =>'rbt',
+            'image' => 'https://via.placeholder.com/400'
         ],
         [
             'name' => 'Tahu Cabe Garam',
             'price' => '16.000',
             'desc' => 'fried tofu with salt and chili',
-            'code' =>'tcg'
+            'code' =>'tcg',
+            'image' => 'https://via.placeholder.com/400'
         ],
         [
             'name' => 'Tahu Barbeque',
             'price' => '16.000',
             'desc' => 'fried tofu with barbeque sauce',
-            'code' =>'tbbq'
+            'code' =>'tbbq',
+            'image' => 'https://via.placeholder.com/400'
         ],
         [
             'name' => 'Tahu Crispy',
             'price' => '14.000',
             'desc' => 'fried tofu',
-            'code' =>'tc'
+            'code' =>'tc',
+            'image' => 'https://via.placeholder.com/400'
         ],
 
     ];

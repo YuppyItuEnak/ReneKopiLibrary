@@ -1,70 +1,23 @@
-@include('navbar')
-{{-- <!DOCTYPE html>
-<html lang="en">
+@extends('layouts.app')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>Document</title>
-</head>
-
-<body> --}}
-<div class="d-flex justify-content-center align-items-center mx-auto">
-    <div class="container text-center">
-        <div class="pages mx-auto">
-            <div class="row mx-auto">
-                <div class="col-12 col-md-4">
-                    <a  onClick="slide('next')">Coffee</a>
-                    <div class="page one">
-
-                        
-                    </div>
-                </div>
-                
+@section('body')
+<h1 class="text-center ">{{ $maintitle }}</h1>
+<div class="container text-center ">
+    <div class="row ">
+        @foreach ($clothes as $clothe)
+            <div class="col-auto col-md-4 mx-auto ">
+                <div class="card my-4 mx-auto" style="width: 15rem; background-color:#dce6ff">
+                    <img src="{{ asset("pictures/{$clothe['photo']}") }}" class="card-img-top" style=" height: 230px" alt="Product picture">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ $clothe['name'] }}</h5>
+                        <p class="card-text">Size : {{ $clothe['size'] }}</p>
+                        <div class="d-flex">
+                            <a href="/detailproduct/{{ $clothe['code'] }}" style="background-color:#516ab0; color: #ffffff"  class="btn  align-items-center justify-content-center mx-auto">Details</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        @endforeach
     </div>
 </div>
-
-
-
-
-{{-- <div class="container">
-    <div class="pages">
-        <div class="page one">
-            <h1>PAGE 1</h1>
-            <div>
-               
-            </div>
-        </div>
-        <div class="page two">
-            <h1>PAGE 2</h1>
-            <div>
-                <button onClick="slide('prev')">Previous</button>
-                <button onClick="slide('next')">Next</button>
-            </div>
-        </div>
-        <div class="page three">
-            <h1>PAGE 3</h1>
-            <div>
-                <button onClick="slide('prev')">Previous</button>
-                <button onClick="slide('next')">Next</button>
-            </div>
-        </div>
-        <div class="page four">
-            <h1>PAGE 4</h1>
-            <div>
-                <button onClick="slide('prev')">Previous</button>
-            </div>
-        </div>
-    </div>
-</div> --}}
-
-
-</body>
-
-</html>
+@endsection

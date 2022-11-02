@@ -11,14 +11,10 @@ class ReneController extends Controller
             "title" => "Homepage"
         ]);
     }
-    public function product(){
+    public function coffee(){
         return view('product', [
-            "title" => "Product"
-        ]);
-    }
-    public function about(){
-        return view('about', [
-            "title" => "About"
+            "title" => "Coffees",
+            "coffees" => ''
         ]);
     }
 }
