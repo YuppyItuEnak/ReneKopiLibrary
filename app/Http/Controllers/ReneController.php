@@ -33,7 +33,7 @@ class ReneController extends Controller
         ]);
     }
     public function shownoncoffee($code){
-        return view('shownoncoffee', [
+        return view('shownoncoffeee', [
             "title" => "Non Coffee Details",
             "noncoffees" => NonCoffees::allDataWithCode($code)
         ]);
