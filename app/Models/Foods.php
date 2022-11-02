@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Food extends Model
+class Foods extends Model
 {
     use HasFactory;
 
@@ -117,4 +117,12 @@ class Food extends Model
         ],
 
     ];
+    public static function allData(){
+        return collect(self::$foods);
+    }
+
+    public static function allDataWithCode($code){
+        $allFoods = static::allData();
+        return $allFoods->firstWhere('code', $code);
+    }
 }

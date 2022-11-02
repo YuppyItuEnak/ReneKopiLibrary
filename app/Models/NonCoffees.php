@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class NonCoffee extends Model
+class NonCoffees extends Model
 {
     use HasFactory;
 
@@ -168,4 +168,12 @@ class NonCoffee extends Model
         ],
 
     ];
+    public static function allData(){
+        return collect(self::$noncoffees);
+    }
+
+    public static function allDataWithCode($code){
+        $allNonCoffees = static::allData();
+        return $allNonCoffees->firstWhere('code', $code);
+    }
 }

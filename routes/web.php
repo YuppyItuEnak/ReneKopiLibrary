@@ -17,6 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [ReneController::class, 'home']);
 Route::get('/home', [ReneController::class, 'home']);
 Route::get('/coffees', [ReneController::class, 'coffee']);
+Route::get('/coffees/{code}', [ReneController::class, 'showcoffee']);
+Route::get('/noncoffees', [ReneController::class, 'noncoffe']);
+Route::get('/noncoffees/{code}', [ReneController::class, 'shownoncoffee']);
+Route::get('/foods', [ReneController::class, 'food']);
+Route::get('/foods/{code}', [ReneController::class, 'showfood']);
 
 
 // Route::get('/dashboard', function () {
