@@ -1,7 +1,7 @@
 <nav class="navbar sticky-top  navbar-expand-lg bg-dark navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="Images/Renekopi3.png" alt="Logo" width="30" height="24"
+            <img src={{ asset('Images/Renekopi3.png') }} alt="Logo" width="30" height="24"
                 class="d-inline-block align-text-top">
             ReneKopi</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

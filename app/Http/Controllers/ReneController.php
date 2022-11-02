@@ -22,7 +22,7 @@ class ReneController extends Controller
     }
     public function showcoffee($code){
         return view('showcoffee', [
-            "pagetitle" => "Coffee Details",
+            "title" => "Coffee Details",
             "coffees" => Coffees::allDataWithCode($code)
         ]);
     }
@@ -34,7 +34,7 @@ class ReneController extends Controller
     }
     public function shownoncoffee($code){
         return view('shownoncoffee', [
-            "pagetitle" => "Non Coffee Details",
+            "title" => "Non Coffee Details",
             "noncoffees" => NonCoffees::allDataWithCode($code)
         ]);
     }
@@ -46,7 +46,7 @@ class ReneController extends Controller
     }
     public function showfood($code){
         return view('showfood', [
-            "pagetitle" => "Food & Snack Details",
+            "title" => "Food & Snack Details",
             "foods" => Foods::allDataWithCode($code)
         ]);
     }
