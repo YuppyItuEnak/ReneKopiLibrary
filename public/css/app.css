@@ -78,9 +78,13 @@ html {
     height: 50px;
 }
 
-#about .wa, .phone,  .ig  {
+#about .wa,
+.phone,
+.ig {
     width: 100px;
     height: 100px;
 }
 
-
+.limit-p {
+    width: 350px;
+}

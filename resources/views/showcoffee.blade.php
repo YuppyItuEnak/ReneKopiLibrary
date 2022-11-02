@@ -34,7 +34,7 @@
                 <div class="card-body text-center">
                     <h1 class="mb-3">{{ $coffees['name'] }}</h1>
                     <h6 class="card-text">Price : {{ $coffees['price'] }}</h6>
-                    <p class="card-text pt-3">Description : {{ $coffees['desc'] }}</p>
+                    <p class="card-text pt-3 limit-p">Description : {{ $coffees['desc'] }}</p>
                 </div>
             </div>
         </div>
