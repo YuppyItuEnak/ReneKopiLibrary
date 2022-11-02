@@ -29,7 +29,7 @@
             </div>
 
             <div class="card mb-3 d-block d-md-none mx-auto">
-                <img src={{ $foods['image'] }} class="card-img-top" style="width: 300px; height: 300px"
+                <img src={{ $foods['image'] }} class="card-img-top mx-auto" style="width: 400px; height: 400px"
                     alt="Product Picture">
                 <div class="card-body text-center">
                     <h1 class="mb-3">{{ $foods['name'] }}</h1>
