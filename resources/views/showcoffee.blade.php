@@ -28,7 +28,7 @@
                 </div>
             </div>
 
-            <div class="card mb-3 d-block d-md-none mx-auto">
+            <div class="card mb-3 d-block d-md-none mx-auto" style="background-color: #dcd7c9">
                 <img src={{ $coffees['image'] }} class="card-img-top mx-auto" style="width: 400px; height: 400px"
                     alt="Product Picture">
                 <div class="card-body text-center">
