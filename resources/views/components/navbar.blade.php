@@ -28,13 +28,19 @@
                                 <a class="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="btn btn-dark dropdown-toggle" href="#product" role="button"
+                                <a class="btn btn-dark dropdown-toggle" role="button"
                                    data-bs-toggle="dropdown" aria-expanded="false">
                                     Products
                                 </a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu dropdown-menu-dark">
                                     <li><a class="dropdown-item" href="/coffees">Coffees</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
                                     <li><a class="dropdown-item" href="/noncoffees">Non Coffees</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
                                     <li><a class="dropdown-item" href="/foodnsnacks">Food & Snacks</a></li>
                                 </ul>
                             </li>
