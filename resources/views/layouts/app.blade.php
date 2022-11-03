@@ -11,8 +11,6 @@
     <link href="http://fonts.cdnfonts.com/css/my-coffee-break" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/florentia" rel="stylesheet">
                 
-
-    <link rel="stylesheet" href={{ asset('/js/page.js') }}>
     <link rel="stylesheet" href={{ asset('/css/app.css') }}>
     <title>{{ $title }}</title>
 

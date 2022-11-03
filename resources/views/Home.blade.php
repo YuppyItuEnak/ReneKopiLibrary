@@ -8,7 +8,7 @@
                 style="height: 95vh">
             <div class="d-flex justify-content-md-center justify-content-center">
                 <div class="textover">
-                    <h1 class="container offset-3 display-1 font-secondary text-white mt-3 mb-4 d-block">
+                    <h1 class="container offset-3 display-1 font-secondary text-white mt-3 mb-4 d-block text-outline">
                         RENEKOPI
                     </h1>
                     <h1 class="container offset-3 text-uppercase font-secondary text-white d-block">
@@ -16,7 +16,8 @@
                         Coffee Passion
                     </h1>
                     <ul class="section-btn ">
-                        <a href="#product" type="button" class="btn btn-outline-secondary btn-lg offset-3 text-white">
+                        <a href="#product" type="button"
+                            class="btn btn-outline-secondary btn-lg offset-3 text-white text-outline">
                             Discover More
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
@@ -101,7 +102,7 @@
                 </div>
             </div>
         </div>
-        <section id="about" class="bg-black">
+        <section id="about" style="background: #3f4e4f">
             <div class="container text-center">
                 <div class="row">
                     <!---Renekopi Slogan--->
@@ -137,10 +138,18 @@
                     </svg>
                 </h1>
 
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4008941077386!2d112.71890231477524!3d-7.308778994725104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb78acf8ffff%3A0xdd441e5ab849a5fc!2sRenekopi!5e0!3m2!1sen!2sid!4v1667314137481!5m2!1sen!2sid"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="d-none d-md-block">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4008941077386!2d112.71890231477524!3d-7.308778994725104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb78acf8ffff%3A0xdd441e5ab849a5fc!2sRenekopi!5e0!3m2!1sen!2sid!4v1667314137481!5m2!1sen!2sid"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="d-block d-md-none">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4008941077386!2d112.71890231477524!3d-7.308778994725104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb78acf8ffff%3A0xdd441e5ab849a5fc!2sRenekopi!5e0!3m2!1sen!2sid!4v1667314137481!5m2!1sen!2sid"
+                        width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
 
             </div>
 
