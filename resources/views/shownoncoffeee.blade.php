@@ -22,7 +22,7 @@
                         <div class="card-body">
                             <h1 class="mb-3" style="color: #3f4e4f">{{ $noncoffees['name'] }}</h1>
                             <h6 class="card-text" style="color: #3f4e4f">Price : {{ $noncoffees['price'] }}</h6>
-                            <h7 class="card-text" style="color: #3f4e4f">Purchase us at :</h7>
+                            <h6 class="card-text" style="color: #3f4e4f">Purchase it at :</h6>
                             <div>
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4008941077386!2d112.71890231477524!3d-7.308778994725104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb78acf8ffff%3A0xdd441e5ab849a5fc!2sRenekopi!5e0!3m2!1sen!2sid!4v1667314137481!5m2!1sen!2sid"
@@ -40,7 +40,7 @@
                 <div class="card-body text-center">
                     <h1 class="mb-3">{{ $noncoffees['name'] }}</h1>
                     <h6 class="card-text">Price : {{ $noncoffees['price'] }}</h6>
-                    <h7 class="card-text" style="color: #3f4e4f">Purchase it at :</h7>
+                    <h6 class="card-text" style="color: #3f4e4f">Purchase it at :</h6>
                     <div>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4008941077386!2d112.71890231477524!3d-7.308778994725104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb78acf8ffff%3A0xdd441e5ab849a5fc!2sRenekopi!5e0!3m2!1sen!2sid!4v1667314137481!5m2!1sen!2sid"
