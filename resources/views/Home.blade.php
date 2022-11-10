@@ -172,7 +172,8 @@
                     <div class="row p-4">
                         <div class=" col-12 col-md-4 mx-auto mt-4">
                             <h3 class="text-center text-white">
-                                <a href="https://wa.me/6289677889969" target="_blank">
+                                <a href="https://wa.me/6289677889969?text=Halo,%20saya%20memiliki%20pertanyaan%20mengenai%20renekopi"
+                                    target="_blank">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor"
                                         class="wa bi bi-whatsapp text-white d-flex justify-content-sm-center mx-auto"
